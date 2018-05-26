@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="Home"
+        android:id="@+id/nav_item_home"
+        android:icon="@drawable/home"/>
+
+    <item android:title="Vegetarian"
+        android:id="@+id/nav_veg"
+        android:icon="@drawable/bookmark"/>
+
+    <item android:title="Non Vegetarian"
+        android:id="@+id/nav_nonveg"
+        android:icon="@drawable/newp"/>
+    <item android:title="Chinese"
+        android:id="@+id/nav_chinese"
+        android:icon="@drawable/newp"/>
+    <item android:title="Drinks"
+        android:id="@+id/nav_drinks"
+        android:icon="@drawable/newp"/>
+
+    <item android:title="Starters"
+        android:id="@+id/nav_starters"
+        android:icon="@drawable/newp"/>
+    <item android:title="Main course"
+        android:id="@+id/nav_maincourse"
+        android:icon="@drawable/newp"/>
+
+
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:title="Cart"
+                android:icon="@drawable/backup"/>
+            <item
+                android:title="Log Out"
+                android:icon="@drawable/store"/>
+        </menu>
+    </item>
+
+    <group android:id="@+id/group_settings_id">
+
+        <item android:title="Notifications"
+            android:icon="@drawable/messages"/>
+        <item android:title="Help"
+            android:icon="@drawable/help"/>
+        <item android:title="Reset Password"
+            android:icon="@drawable/help"/>
+        <item android:title="Change Email"
+            android:icon="@drawable/help"/>
+    </group>
+
+
+</menu>
